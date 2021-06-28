@@ -8,8 +8,10 @@
 # C2CS
 *.exe
 *.json
+library.cs
 
 # C build artifacts: Windows
+*.dll
 *.exp
 *.lib
 *.obj
