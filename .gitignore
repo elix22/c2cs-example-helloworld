@@ -1,0 +1,15 @@
+# JetBrains
+/.idea
+
+# .NET build artifacts
+/bin
+/obj
+
+# C2CS
+*.exe
+*.json
+
+# C build artifacts: Windows
+*.exp
+*.lib
+*.obj
