@@ -4,6 +4,8 @@ Minimal example of using C2CS to generate and run C code from C#.
 
 ## Setup
 
+You will need the .NET 5 SDK.
+
 ### Downloading C2CS
 
 #### Windows
@@ -14,6 +16,7 @@ Powershell.exe -ExecutionPolicy Bypass -File .\get-c2cs.ps1
 
 #### macOS/Ubuntu
 ```bash
+./get-c2cs.sh
 ```
 
 ### Build native library + generate C# code
@@ -28,6 +31,7 @@ Powershell.exe -ExecutionPolicy Bypass -File .\build.ps1
 #### macOS/Ubuntu
 
 ```bash
+./build.sh
 ```
 
 ### Build / run C# project
@@ -36,4 +40,10 @@ Powershell.exe -ExecutionPolicy Bypass -File .\build.ps1
 
 ```cmd
 dotnet run .\helloworld.csproj
+```
+
+#### macOS/Ubuntu
+
+```bash
+dotnet run ./helloworld.csproj
 ```

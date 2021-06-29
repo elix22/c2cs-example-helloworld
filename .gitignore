@@ -6,8 +6,9 @@
 /obj
 
 # C2CS
-*.exe
-*.json
+/C2CS
+/C2CS.exe
+ast.json
 library.cs
 
 # C build artifacts: Windows
