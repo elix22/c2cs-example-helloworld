@@ -5,17 +5,18 @@
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
     <ItemGroup>
-      <PackageReference Include="C2CS.Runtime" Version="*-*" />
+        <PackageReference Include="C2CS.Runtime" Version="*-*" />
+        <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="6.0.0-*" />
     </ItemGroup>
     <ItemGroup>
-      <None Update="library.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="liblibrary.dylib">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="liblibrary.so">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
+        <None Update="library.dll">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="liblibrary.dylib">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="liblibrary.so">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 </Project>
