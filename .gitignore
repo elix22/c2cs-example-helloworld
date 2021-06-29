@@ -19,3 +19,6 @@ library.cs
 
 # C build artifacts: macOS
 *.dylib
+
+# C build artifacts: Linux
+*.so

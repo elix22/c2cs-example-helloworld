@@ -1,12 +1,12 @@
 # c2cs-example-helloworld
 
-Minimal example of using C2CS to generate and run C code from C#.
+Minimal example of using [`C2CS`](https://github.com/lithiumtoast/c2cs) to generate and run C code from C#.
 
 ## Setup
 
 You will need the .NET 5 SDK.
 
-### Downloading C2CS
+### Downloading `C2CS`
 
 #### Windows
 
