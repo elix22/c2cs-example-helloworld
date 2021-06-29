@@ -16,3 +16,6 @@ library.cs
 *.exp
 *.lib
 *.obj
+
+# C build artifacts: macOS
+*.dylib
